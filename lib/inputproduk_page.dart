@@ -44,7 +44,7 @@ class _InputProdukPageState extends State<InputProdukPage> {
       context: context, builder: (context){
       return CupertinoAlertDialog(
         title: Text("Terimakasih, Data Berhasil Disimpan", textAlign: TextAlign.center,),
-        content: Text("Produk anda akan diverifikasi terlebih dahulu oleh admin dan akan ditampilkan dalam waktu 1x24 Jam, Untuk info lebih lanjut silahkan bisa hubungi ke email admin@gmail.com ", textAlign: TextAlign.center),
+        content: Text("Produk anda akan diverifikasi terlebih dahulu oleh admin dan akan ditampilkan dalam waktu 1x24 Jam, Untuk info lebih lanjut mengenai perubahan data dan lain-lain silahkan bisa hubungi ke email admin-dmi@gmail.com ", textAlign: TextAlign.center),
         actions: <Widget>[
           TextButton(onPressed: (){
             Navigator.push(context, MaterialPageRoute(builder: (context){
@@ -254,7 +254,7 @@ class _InputProdukPageState extends State<InputProdukPage> {
                         autovalidateMode: AutovalidateMode.onUserInteraction,
                         validator: (value) {
                           if (value.isEmpty) {
-                            return "Tidak Boleh Kosong";
+                            return "Inputan Tidak Boleh Kosong";
                           }
                           return null;
                         },
@@ -272,7 +272,7 @@ class _InputProdukPageState extends State<InputProdukPage> {
                         autovalidateMode: AutovalidateMode.onUserInteraction,
                         validator: (value) {
                           if (value.isEmpty) {
-                            return "Tidak Boleh Kosong";
+                            return "Inputan Tidak Boleh Kosong";
                           }
                           return null;
                         },
@@ -290,7 +290,7 @@ class _InputProdukPageState extends State<InputProdukPage> {
                         autovalidateMode: AutovalidateMode.onUserInteraction,
                         validator: (value) {
                           if (value.isEmpty) {
-                            return "Tidak Boleh Kosong";
+                            return "Inputan Tidak Boleh Kosong";
                           }
                           return null;
                         },
@@ -309,7 +309,7 @@ class _InputProdukPageState extends State<InputProdukPage> {
                         autovalidateMode: AutovalidateMode.onUserInteraction,
                         validator: (value) {
                           if (value.isEmpty) {
-                            return "Tidak Boleh Kosong";
+                            return "Inputan Tidak Boleh Kosong";
                           }
                           return null;
                         },
@@ -331,7 +331,7 @@ class _InputProdukPageState extends State<InputProdukPage> {
                         autovalidateMode: AutovalidateMode.onUserInteraction,
                         validator: (value) {
                           if (value.isEmpty) {
-                            return "Tidak Boleh Kosong";
+                            return "Inputan Tidak Boleh Kosong";
                           }
                           return null;
                         },
@@ -349,7 +349,7 @@ class _InputProdukPageState extends State<InputProdukPage> {
                         autovalidateMode: AutovalidateMode.onUserInteraction,
                         validator: (value) {
                           if (value.isEmpty) {
-                            return "Tidak Boleh Kosong";
+                            return "Inputan Tidak Boleh Kosong";
                           }
                           return null;
                         },
@@ -368,7 +368,7 @@ class _InputProdukPageState extends State<InputProdukPage> {
                         autovalidateMode: AutovalidateMode.onUserInteraction,
                         validator: (value) {
                           if (value.isEmpty) {
-                            return "Tidak Boleh Kosong";
+                            return "Inputan Tidak Boleh Kosong";
                           }
                           return null;
                         },

@@ -64,7 +64,7 @@ class _InputUlasanPageState extends State<InputUlasanPage> {
               textAlign: TextAlign.center,
             ),
             content: Text(
-                "Ulasan anda akan segera ditampilkan, dan admin berhak menghapus ulasan anda jika dirasa ulasan tidak relevan.",
+                "Ulasan anda akan segera ditampilkan, dan admin berhak menghapus ulasan anda jika dirasa ulasan tidak relevan atau mengandung unsur yang tidak layak untuk ditampilkan.",
                 textAlign: TextAlign.center),
             actions: <Widget>[
               TextButton(
@@ -168,7 +168,7 @@ class _InputUlasanPageState extends State<InputUlasanPage> {
               TextFormField(
                 validator: (value) {
                   if (value.isEmpty) {
-                    return "Tidak Boleh Kosong";
+                    return "Inputan Tidak Boleh Kosong";
                   }
                   return null;
                 },
@@ -186,7 +186,7 @@ class _InputUlasanPageState extends State<InputUlasanPage> {
               TextFormField(
                 validator: (value) {
                   if (value.isEmpty) {
-                    return "Tidak Boleh Kosong";
+                    return "Inputan Tidak Boleh Kosong";
                   }
                   return null;
                 },
